@@ -49,7 +49,7 @@ body{
 }
 
 .card{
-    opacity: 70%;
+    opacity: 75%;
     width: 40%;
     margin-bottom: 10px;
     top: 50px;
@@ -63,6 +63,7 @@ body{
     float: right;
     margin-top: 15%;
     margin-right: 10%;
+    border: 3px rgb(193 181 164) solid;
 }
 
 .FistLogo{
@@ -90,8 +91,9 @@ hr{
 
 .info{
     margin-top: 5%;
-    background-color: rgb(212, 195, 172);
+    background-color: rgb(193 181 164);
     height: 163px;
+    border: 1px gray solid;
 }
 
 .txt{
