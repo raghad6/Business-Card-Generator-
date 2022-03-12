@@ -1,47 +1,4 @@
 
-#loading {
-    width: 2rem;
-    height: 2rem;
-    border: 5px solid #f3f3f3;
-    border-top: 6px solid #9c41f2;
-    border-radius: 100%;
-    margin: auto;
-    visibility: hidden;
-    animation: spin 1s infinite linear;
-}
-#loading.display {
-    visibility: visible;
-}
-@keyframes spin {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg);
-    }
-}
-
-#loading {
-    background-image: url("../img/preloader.GIF");
-    background-position: center center;
-    background-repeat: no-repeat;
-    height: 200px;
-    left: 50%;
-    margin: -100px 0 0 -100px;
-    position: absolute;
-    top: 50%;
-    width: 200px;
-}
-#preloader {
-    background: #fff none repeat scroll 0 0;
-    bottom: 0;
-    left: 0;
-    position: fixed;
-    right: 0;
-    top: 0;
-    z-index: 9999;
-}
-
 body{
     background-image: url('../img/wall1.jpg');
     background-size: cover;
@@ -52,7 +9,7 @@ body{
     opacity: 75%;
     width: 40%;
     margin-bottom: 10px;
-    top: 50px;
+    top: 60px;
     left: 45px;
 }
 
@@ -66,7 +23,7 @@ body{
     border: 3px rgb(193 181 164) solid;
 }
 
-.FistLogo{
+/* .FistLogo{
     font-size: 55px;
     margin-left: 60px;
     margin-top: 5px;
@@ -87,6 +44,13 @@ hr{
     margin-top: 0px;
     font-family: 'Sansita Swashed', cursive;
 
+} */
+
+#img{
+    margin-top: 40%;
+    margin-left: 40%;
+    width: 65px;
+    height: 73px;
 }
 
 .info{
@@ -103,6 +67,9 @@ hr{
 .info h3{
  font-size: 20px;
 }
+
+
 .info h4{
     font-size: 15px;
+    display: inline-block;
 }
